@@ -50,7 +50,7 @@ if (myNumber > 10) {
     while (myNumber >= 5) {
         myNumber--
     }
-    myNumber +=6
+    myNumber += 6;
 }
 
 console.log(myNumber);
