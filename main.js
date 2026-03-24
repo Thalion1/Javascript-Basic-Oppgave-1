@@ -110,9 +110,6 @@ at betingelsen din fungerer som den skal.
 
 const userMale = false;
 
-let userTitle;
-if (userMale === true) {
-    userTitle = "Mr."
-} else {
-    userTitle = "Mrs."
-}
+let userTitle = userMale ? "Mr." : "Mrs.";
+
+console.log(userTitle);
